@@ -1,0 +1,132 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    background: #FAFFFD;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ///////////// */
+/*    HEADING    */
+/* ///////////// */
+
+
+header {
+    display: flex;
+    background-color: #FA824C;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#myName {
+    color: #FAFFFD;
+    background-color: #342E37;
+    margin: 0 25% 0 0;
+    padding: 25px;
+}
+
+.Pages li {
+    list-style: none;
+    display: inline;
+    float: left;
+}
+
+.Pages a {
+    display: block;
+    padding: 15px;
+    margin-right:20px;
+    color: #ddd;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#About {
+
+}
+
+#Portfolio {
+    
+}
+
+#Contact {
+
+}
+
+
+/* ///////////// */
+/*     MAIN      */
+/* ///////////// */
+
+#Main {
+    max-width: 960px;
+    margin: 20px auto 7.5%;
+    padding: 20px;
+    flex: 1 0 auto;
+    background: #EAF2EF;
+    font-size: 1.15em;
+    line-height: 25px;
+}
+
+#aboutMe {
+    color: #FF5E5B;
+    margin: 20px 0 10px;
+}
+
+.line {
+    border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+#Me {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#firstP {
+    clear: right;
+    margin: 10% 0;
+}
+
+#secondP, #thirdP {
+    clear: both;
+    margin-top: 20px;
+}
+
+/* ///////////// */
+/*     FOOTER    */
+/* ///////////// */
+
+footer {
+    display: flex;
+    background-color: #342E37;
+    color: #FAFFFD;
+    align-items: center;
+    padding: 1%;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
