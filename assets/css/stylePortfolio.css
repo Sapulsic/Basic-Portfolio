@@ -46,7 +46,7 @@ header {
 
 .Pages li {
     list-style: none;
-    display: inline;
+    display: inline-block;
     float: left;
 }
 
@@ -87,7 +87,7 @@ header {
     line-height: 25px;
 }
 
-#aboutMe {
+#mainTitle {
     color: #FF5E5B;
     margin: 20px 0 10px;
 }
