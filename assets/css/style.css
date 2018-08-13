@@ -49,23 +49,24 @@ header {
 .Pages a {
     display: block;
     padding: 15px;
-    margin-right:20px;
+    margin: 0 20px;
     color: #ddd;
     text-decoration: none;
     text-transform: capitalize;
 }
 
 #About {
-
+    order: 1;
 }
 
 #Portfolio {
-    
+    order: 2;
 }
 
 #Contact {
-
+    order: 3;
 }
+
 
 
 /* ///////////// */
@@ -130,3 +131,19 @@ footer {
     height: 0; 
     clear: both;
  }
+
+ .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
