@@ -100,23 +100,6 @@ header {
 	border-bottom: 1px solid #fff;
 }
 
-#Me {
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-}
-
-#firstP {
-    clear: right;
-    margin: 10% 0;
-}
-
-#secondP, #thirdP {
-    clear: both;
-    margin-top: 20px;
-}
-
 /* ///////////// */
 /*     FOOTER    */
 /* ///////////// */
@@ -154,3 +137,7 @@ footer {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+
+  ::-webkit-scrollbar { 
+    display: none; 
+}
