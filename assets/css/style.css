@@ -46,7 +46,7 @@ header {
 
 .Pages li {
     list-style: none;
-    display: inline;
+    display: inline-block;
     float: left;
 }
 

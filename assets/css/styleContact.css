@@ -78,10 +78,13 @@ header {
 /* ///////////// */
 
 #Main {
+    flex: 1 0 auto;
+}
+
+.container {
     max-width: 960px;
     margin: 20px auto 7.5%;
     padding: 20px;
-    flex: 1 0 auto;
     background: #EAF2EF;
     font-size: 1.15em;
     line-height: 25px;
@@ -97,21 +100,25 @@ header {
 	border-bottom: 1px solid #fff;
 }
 
-#Me {
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-#firstP {
-    clear: right;
-    margin: 10% 0;
-}
+input[type=submit] {
+    background-color: #FF5E5B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}   
 
-#secondP, #thirdP {
-    clear: both;
-    margin-top: 20px;
+input[type=submit]:hover {
+    background-color: rgb(240, 90, 87);
 }
 
 /* ///////////// */
