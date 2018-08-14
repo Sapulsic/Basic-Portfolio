@@ -5,7 +5,7 @@
   }
 
 html, body {
-    height: 100%;
+    min-height: 100vh;
 }
 
 body {
@@ -78,10 +78,13 @@ header {
 /* ///////////// */
 
 #Main {
-    max-width: 960px;
-    margin: 20px auto 7.5%;
-    padding: 20px;
     flex: 1 0 auto;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
     background: #EAF2EF;
     font-size: 1.15em;
     line-height: 25px;
