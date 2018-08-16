@@ -79,6 +79,7 @@ header {
 
 #Main {
     flex: 1 0 auto;
+    display: flex;
 }
 
 .container {
@@ -99,6 +100,59 @@ header {
     border-top: 1px solid #8c8b8b;
 	border-bottom: 1px solid #fff;
 }
+
+.imgContainer {
+    margin: 0 auto;  
+    flex: 1 0 auto;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-content: flex-start; */
+    /* align-items: center; */
+    flex-flow: wrap;  
+}
+
+.imgHolder {
+    position: relative;
+    display: flex;
+    /* align-content: flex-start; */
+    margin: 25px;
+}
+
+.imgText {
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+}
+
+#video_games {
+    flex: 1 0 auto;
+    order: 1;
+}
+
+#programming {
+    flex: 1 0 auto;
+    order: 2;
+}
+
+#lo_Fi {
+    flex: 1 0 auto;
+    order: 3;
+}
+
+#exercise {
+    flex: 1 0 auto;
+    order: 4;
+}
+
+#sleeping {
+    flex: 1 0 auto;
+    order: 5;
+}
+
+
 
 /* ///////////// */
 /*     FOOTER    */
