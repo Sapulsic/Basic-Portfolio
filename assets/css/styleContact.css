@@ -127,9 +127,12 @@ input[type=submit]:hover {
     background-color: #46a09b;
 }
 
+
+
 /* ///////////// */
 /*     FOOTER    */
 /* ///////////// */
+
 
 footer {
     display: flex;
@@ -141,6 +144,12 @@ footer {
     flex-shrink: 0;
     border-top: 10px solid #4aaaa5;
 }
+
+
+
+/* ///////////// */
+/*     OTHER     */
+/* ///////////// */
 
 .clearfix:after { 
     content: "."; 

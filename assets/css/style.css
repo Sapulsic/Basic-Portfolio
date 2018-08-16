@@ -114,12 +114,12 @@ header {
 
 #firstP {
     clear: right;
-    margin: 10% 0;
+    margin: 6% 2% 0;
 }
 
 #secondP, #thirdP {
     clear: both;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 /* ///////////// */
@@ -136,6 +136,12 @@ footer {
     flex-shrink: 0;
     border-top: 10px solid #4aaaa5;
 }
+
+
+
+/* ///////////// */
+/*     OTHER     */
+/* ///////////// */
 
 .clearfix:after { 
     content: "."; 
